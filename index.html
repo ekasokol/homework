@@ -6,21 +6,24 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
- <div class="form-box">
-     <h1>заказать звонок</h1>
-     <p class="form-alert"><img src="images/form-alert.png"> -поля обязательные для заполнения</p>
-     <form class="call">
-         <p>Ваше ФИО <img src="images/form-alert.png"></p>
-         <input class="name" type= text  placeholder="ФИО">
-         <p>Ваш телефон <img src="images/form-alert.png"></p>
-        <input class="number" type="text" placeholder="НОМЕР">
-         <p>Желаемое время звонка</p>
-         <select><option>Утро </option>
-             <option>Ночь</option>
-         </select>
-         <input class="buttom" type="submit" value="заказать" >
+<div class="form-box">
+    <h1>заказать звонок</h1>
+    <p class="form-alert"><img src="images/form-alert.png"> -поля обязательные для заполнения</p>
+    <form class="call" action="/">
+        <div class="row"><label>Ваше ФИО <img src="images/form-alert.png"></label>
+            <input class="name" type="text" placeholder="ФИО" name="username"></div>
+        <div class="row"><label>Ваш телефон <img src="images/form-alert.png"></label>
+            <input class="number" type="text" placeholder="НОМЕР" name="number"></div>
+        <div class="row"><label>Желаемое время звонка</label>
+            <div class="row2"><select name="call-time">
+                <option value="утро">Утро</option>
+                <option value="ночь">Ночь</option>
+            </select>
+                <input class="buttom" type="submit" value="заказать"></div>
+        </div>
 
-     </form>
- </div>
+    </form>
+    <div class="phone"><img src="images/call-bg.png"></div>
+</div>
 </body>
 </html>

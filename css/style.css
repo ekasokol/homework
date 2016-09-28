@@ -1,37 +1,95 @@
 @import "reset.css";
-body{
+
+body {
     background: url("../images/bg.png");
     width: 100px;
     height: 100px;
-
+    font-family: arial;
 }
-.form-box{
-   background: url("../images/jtl-onboarding-background.png");
+
+.form-box {
+    background: url("../images/jtl-onboarding-background.png");
     border-radius: 20px;
     width: 250px;
-    height: 500px;
+    height: 530px;
     margin: 0 500px;
+    margin-top: 30px;
+    border: 1px solid #fff;
 }
-.form-box h1{
+
+.form-box h1 {
     text-align: center;
-    font-family: arial;
     color: #7a6d77;
+    font-size: 28px;
+    padding-top: 12px;
 }
-.form-alert{
+
+.form-alert {
     font-size: 12px;
     padding-left: 10px;
     text-align: left;
+    padding-bottom: 10px;
+    padding-top: 15px;
 }
-select{
+
+select {
     font-size: 14px;
-    height: 29px;
-    width: 135px;
+    height: 34px;
+    width: 130px;
 }
-.name{
+
+.name {
     font-size: 15px;
     color: #7a6d77;
+    width: 220px;
+    text-indent: 10px;
+}
+
+.number {
+    width: 220px;
+    text-indent: 10px;
+}
+
+.call {
+    text-align: center;
+    font-size: 16px;
+    color: #1a1e27;
+}
+
+.row2 > * {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.call p {
+    color: #1a1e27;
+    font-family: arial;
+}
+
+input {
+    border: none;
+    height: 45px;
+    line-height: 45px;
+}
+
+.row {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.buttom {
+    height: 32px;
+    line-height: 31px;
+    color: red;
+}
+
+.phone {
+    text-align: center;
 
 }
-.call p{
-    color: #101322;
+
+.row label {
+    margin-bottom: 12px;
+    display: block;
+    padding-top: 10px;
 }
